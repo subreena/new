@@ -5,6 +5,7 @@
     color: #dfdfdf;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #root {
@@ -34,6 +35,7 @@ border-radius: 10px;
 color: #fff;
 text-transform: uppercase;
 letter-spacing: 2px;
+cursor: pointer;
 }
 .link-btn:hover{
     background-color: #ff4a57;
@@ -348,16 +350,27 @@ footer{
     font-size: 15px;
 }
 
+@media screen and (max-width: 600px){
+    nav {
+        display: inline;
+        padding: 34px 30px;
+        text-align: center;
+    }
+    nav ul li a{
+        margin-top: 15px;
+        font-size: 16px;
+    }
+}
 
 @media screen and (max-width: 800px){
-    nav{
-        display: none;
-    }
+   
     #home{
         flex-direction: column;
         padding: 30px;
     }
     img{
+        width: 70%;
+        margin: auto;
         width: 100%;
     }
     #service{
@@ -383,7 +396,8 @@ footer{
         grid-template-columns: 1fr;
     }
     .skill-bar-content{
-        margin-top: 20px;;
+        margin-top: 50px;
+        
     }
     .social-icon{
         display: flex;
@@ -405,5 +419,24 @@ footer{
     .text-width{
         max-width: 100%;
         padding: 50px 10px;
+    }
+}
+@media screen and (max-width: 1050px){
+    #home img{
+        width: 80%;;
+    }
+    #about{
+        padding: 30px;
+    }
+    .about-part{
+        width: 100%;
+        display: flex;
+    }
+    .text-width1{
+        display: inline;
+        
+    }
+    .about-text1{
+        grid-template-columns: 1fr;
     }
 }
