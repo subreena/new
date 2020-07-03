@@ -347,3 +347,63 @@ footer{
     text-align: center;
     font-size: 15px;
 }
+
+
+@media screen and (max-width: 800px){
+    nav{
+        display: none;
+    }
+    #home{
+        flex-direction: column;
+        padding: 30px;
+    }
+    img{
+        width: 100%;
+    }
+    #service{
+      grid-template-columns:  1fr;
+    }
+    .about-part{
+        flex-direction: column;
+    }
+    .about-text1{
+        grid-template-columns: 1fr;
+    }
+    #skills{
+        flex-direction: column;
+
+    }
+    .image-width{
+        max-width: 100%;
+    }
+    .blue{
+            width: 100%;
+    }
+    .blog{
+        grid-template-columns: 1fr;
+    }
+    .skill-bar-content{
+        margin-top: 20px;;
+    }
+    .social-icon{
+        display: flex;
+    }
+    .social-icon-i{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        padding: 7px;
+    }
+   
+    .buttons{
+        display: inline;
+    }
+    .link-btn{
+        margin: 10px;
+        padding: 8px 20px;
+    }
+    .text-width{
+        max-width: 100%;
+        padding: 50px 10px;
+    }
+}
