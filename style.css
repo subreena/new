@@ -58,7 +58,7 @@ header {
 
 header::before {
     content: "";
-    background-color: #1F2235;
+    background-color: black;
     position: absolute;
     top: 0px;
     left: 0px;
