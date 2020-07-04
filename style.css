@@ -421,22 +421,3 @@ footer{
         padding: 50px 10px;
     }
 }
-@media screen and (max-width: 1050px){
-    #home img{
-        width: 80%;;
-    }
-    #about{
-        padding: 30px;
-    }
-    .about-part{
-        width: 100%;
-        display: flex;
-    }
-    .text-width1{
-        display: inline;
-        
-    }
-    .about-text1{
-        grid-template-columns: 1fr;
-    }
-}
